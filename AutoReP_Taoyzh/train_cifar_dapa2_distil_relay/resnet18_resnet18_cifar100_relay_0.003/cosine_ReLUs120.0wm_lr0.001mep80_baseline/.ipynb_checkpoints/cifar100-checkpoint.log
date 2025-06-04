@@ -1,0 +1,82 @@
+06/02 06:14:00 PM | 
+06/02 06:14:00 PM | Parameters:
+06/02 06:14:00 PM | NUM_MASK=1
+06/02 06:14:00 PM | RELU_COUNT=120.0
+06/02 06:14:00 PM | ACT_TYPE=ReLU_masked_dapa_relay
+06/02 06:14:00 PM | ALPHA_LR=0.0002
+06/02 06:14:00 PM | ALPHA_WEIGHT_DECAY=0.001
+06/02 06:14:00 PM | ARCH=resnet18
+06/02 06:14:00 PM | BATCH_SIZE=128
+06/02 06:14:00 PM | CHECKPOINT_PATH=None
+06/02 06:14:00 PM | CLIP_X2=1.0
+06/02 06:14:00 PM | CLIP_X2_BOOL=True
+06/02 06:14:00 PM | DATA_PATH=./data/
+06/02 06:14:00 PM | DATASET=cifar100
+06/02 06:14:00 PM | DEGREE=2
+06/02 06:14:00 PM | DISTIL=True
+06/02 06:14:00 PM | DROPOUT=0
+06/02 06:14:00 PM | ENABLE_GRAD_NORM=False
+06/02 06:14:00 PM | ENABLE_LOOKAHEAD=True
+06/02 06:14:00 PM | EPOCHS=200
+06/02 06:14:00 PM | EVALUATE=None
+06/02 06:14:00 PM | EXT=baseline
+06/02 06:14:00 PM | FREEZEACT=False
+06/02 06:14:00 PM | GPUS=[0]
+06/02 06:14:00 PM | LAMDA=240.0
+06/02 06:14:00 PM | MASK_DROPOUT=0
+06/02 06:14:00 PM | MASK_EPOCHS=80
+06/02 06:14:00 PM | NUM_CLASSES=100
+06/02 06:14:00 PM | OPTIM=cosine
+06/02 06:14:00 PM | PATH=train_cifar_dapa2_distil_relay/resnet18_resnet18_cifar100_relay_0.003/cosine_ReLUs120.0wm_lr0.001mep80_baseline
+06/02 06:14:00 PM | PLOT_PATH=train_cifar_dapa2_distil_relay/resnet18_resnet18_cifar100_relay_0.003/cosine_ReLUs120.0wm_lr0.001mep80_baseline/plots
+06/02 06:14:00 PM | PRECISION=full
+06/02 06:14:00 PM | PRETRAINED=False
+06/02 06:14:00 PM | PRETRAINED_PATH=./train_cifar/resnet18__cifar100/cosine_baseline_ReLUs0lr0.1ep400_baseline/best.pth.tar
+06/02 06:14:00 PM | PRINT_FREQ=100
+06/02 06:14:00 PM | SCALE_X1=1.0
+06/02 06:14:00 PM | SCALE_X2=2.0
+06/02 06:14:00 PM | SEED=2
+06/02 06:14:00 PM | START_EPOCH=0
+06/02 06:14:00 PM | TEACHER_ARCH=resnet18
+06/02 06:14:00 PM | TEACHER_PATH=./train_cifar/resnet18__cifar100/cosine_baseline_ReLUs0lr0.1ep400_baseline/best.pth.tar
+06/02 06:14:00 PM | THRESHOLD=0.003
+06/02 06:14:00 PM | VAR_MIN=0.5
+06/02 06:14:00 PM | W_DECAY_EPOCH=20
+06/02 06:14:00 PM | W_GRAD_CLIP=5.0
+06/02 06:14:00 PM | W_LR=0.0001
+06/02 06:14:00 PM | W_LR_MIN=1e-05
+06/02 06:14:00 PM | W_MASK_LR=0.001
+06/02 06:14:00 PM | W_MOMENTUM=0.9
+06/02 06:14:00 PM | W_WEIGHT_DECAY=0.0005
+06/02 06:14:00 PM | WORKERS=4
+06/02 06:14:00 PM | X_SIZE=[1, 3, 32, 32]
+06/02 06:14:00 PM | 
+06/02 06:14:00 PM | Logger is set - training start
+####### ReLU Sparsity #######
+# Layer wise neuron ReLU sparsity for the model
+# Format: [layer name, Total original ReLU count, remained count, remained percentage]
+['model.relu.alpha_mask_0_0', 65536, 65536.0, 1.0]
+['model.relu.alpha_mask_1_0', 16384, 16384.0, 1.0]
+['model.relu.alpha_mask_2_0', 16384, 16384.0, 1.0]
+['model.relu.alpha_mask_3_0', 16384, 16384.0, 1.0]
+['model.relu.alpha_mask_4_0', 16384, 16384.0, 1.0]
+['model.relu.alpha_mask_5_0', 8192, 8192.0, 1.0]
+['model.relu.alpha_mask_6_0', 8192, 8192.0, 1.0]
+['model.relu.alpha_mask_7_0', 8192, 8192.0, 1.0]
+['model.relu.alpha_mask_8_0', 8192, 8192.0, 1.0]
+['model.relu.alpha_mask_9_0', 4096, 4096.0, 1.0]
+['model.relu.alpha_mask_10_0', 4096, 4096.0, 1.0]
+['model.relu.alpha_mask_11_0', 4096, 4096.0, 1.0]
+['model.relu.alpha_mask_12_0', 4096, 4096.0, 1.0]
+['model.relu.alpha_mask_13_0', 2048, 2048.0, 1.0]
+['model.relu.alpha_mask_14_0', 2048, 2048.0, 1.0]
+['model.relu.alpha_mask_15_0', 2048, 2048.0, 1.0]
+['model.relu.alpha_mask_16_0', 2048, 2048.0, 1.0]
+# Global ReLU neuron sparsity for the model
+# Format: [Total original ReLU count, remained count, remained percentage]
+[188416, 188416.0, 1.0]
+########## End ###########
+06/02 06:14:05 PM | Train: [ 1/80] Step 000/390 Loss 0.011 Prec@(1,5) (100.0%, 100.0%)
+06/02 06:14:05 PM | layerwise density: [65536.0, 16384.0, 16384.0, 16384.0, 16384.0, 8192.0, 8192.0, 8192.0, 8192.0, 4096.0, 4096.0, 4096.0, 4096.0, 2048.0, 2048.0, 2048.0, 2048.0]
+layerwise density percentage: ['1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000', '1.000']
+Global density: 1.0

@@ -1,0 +1,28 @@
+[HAMI-core Msg(359822:133281050213248:libvgpu.c:837)]: Initializing.....
+usage: CIFAR-10/CIFAR-100/TinyImagenet/ImageNet Training config [-h] [--dataset DATASET] [--data_path DATA_PATH]
+                                                                [--act_type {nn.ReLU,ReLU_masked,ReLU_masked_spgrad,ReLU_masked_relay,ReLU_masked_spgrad_relay,ReLU_masked_autopoly_relay,ReLU_masked_autopoly,ReLU_masked_dapa_relay}]
+                                                                [--freezeact] [--enable_lookahead] [--degree DEGREE] [--batch_size BATCH_SIZE] [--w_mask_lr W_MASK_LR] [--w_lr W_LR]
+                                                                [--var_min VAR_MIN] [--w_lr_min W_LR_MIN] [--w_momentum W_MOMENTUM] [--w_weight_decay W_WEIGHT_DECAY] [--enable_grad_norm]
+                                                                [--w_grad_clip W_GRAD_CLIP] [--w_decay_epoch W_DECAY_EPOCH] [--alpha_lr ALPHA_LR] [--ReLU_count RELU_COUNT]
+                                                                [--threshold THRESHOLD] [--lamda LAMDA] [--scale_x1 SCALE_X1] [--scale_x2 SCALE_X2] [--clip_x2_bool] [--clip_x2 CLIP_X2]
+                                                                [--alpha_weight_decay ALPHA_WEIGHT_DECAY] [--print_freq PRINT_FREQ] [--Num_mask NUM_MASK] [--gpus GPUS] [--epochs EPOCHS]
+                                                                [--mask_epochs MASK_EPOCHS] [--seed SEED] [--workers WORKERS] [--start-epoch N] [-e PATH] [--pretrained]
+                                                                [--pretrained_path PRETRAINED_PATH] [--distil] [--teacher_arch TEACHER_ARCH] [--teacher_path TEACHER_PATH]
+                                                                [--checkpoint_path CHECKPOINT_PATH] [--arch ARCH] [--dropout DROPOUT] [--mask_dropout MASK_DROPOUT]
+                                                                [--optim {cosine,cosine_finetune,cosine_rst,cos_modified}] [--precision {full,half}] [--ext EXT]
+CIFAR-10/CIFAR-100/TinyImagenet/ImageNet Training config: error: unrecognized arguments: s
+[HAMI-core Msg(359822:133281050213248:multiprocess_memory_limit.c:498)]: Calling exit handler 359822
+[HAMI-core Msg(359912:124980461595520:libvgpu.c:837)]: Initializing.....
+usage: CIFAR-10/CIFAR-100/TinyImagenet/ImageNet Training config [-h] [--dataset DATASET] [--data_path DATA_PATH]
+                                                                [--act_type {nn.ReLU,ReLU_masked,ReLU_masked_spgrad,ReLU_masked_relay,ReLU_masked_spgrad_relay,ReLU_masked_autopoly_relay,ReLU_masked_autopoly,ReLU_masked_dapa_relay}]
+                                                                [--freezeact] [--enable_lookahead] [--degree DEGREE] [--batch_size BATCH_SIZE] [--w_mask_lr W_MASK_LR] [--w_lr W_LR]
+                                                                [--var_min VAR_MIN] [--w_lr_min W_LR_MIN] [--w_momentum W_MOMENTUM] [--w_weight_decay W_WEIGHT_DECAY] [--enable_grad_norm]
+                                                                [--w_grad_clip W_GRAD_CLIP] [--w_decay_epoch W_DECAY_EPOCH] [--alpha_lr ALPHA_LR] [--ReLU_count RELU_COUNT]
+                                                                [--threshold THRESHOLD] [--lamda LAMDA] [--scale_x1 SCALE_X1] [--scale_x2 SCALE_X2] [--clip_x2_bool] [--clip_x2 CLIP_X2]
+                                                                [--alpha_weight_decay ALPHA_WEIGHT_DECAY] [--print_freq PRINT_FREQ] [--Num_mask NUM_MASK] [--gpus GPUS] [--epochs EPOCHS]
+                                                                [--mask_epochs MASK_EPOCHS] [--seed SEED] [--workers WORKERS] [--start-epoch N] [-e PATH] [--pretrained]
+                                                                [--pretrained_path PRETRAINED_PATH] [--distil] [--teacher_arch TEACHER_ARCH] [--teacher_path TEACHER_PATH]
+                                                                [--checkpoint_path CHECKPOINT_PATH] [--arch ARCH] [--dropout DROPOUT] [--mask_dropout MASK_DROPOUT]
+                                                                [--optim {cosine,cosine_finetune,cosine_rst,cos_modified}] [--precision {full,half}] [--ext EXT]
+CIFAR-10/CIFAR-100/TinyImagenet/ImageNet Training config: error: unrecognized arguments: s
+[HAMI-core Msg(359912:124980461595520:multiprocess_memory_limit.c:498)]: Calling exit handler 359912
